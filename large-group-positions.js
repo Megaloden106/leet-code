@@ -11,4 +11,15 @@
  * @return {number[][]}
  */
 const largeGroupPositions = function(S) {
+  const array = [];
+  let start = 0;
+  let prev = S[0];
+  for (let i = 1; i <= S.length; i += 1) {
+      if (prev !== S[i]) {
+          if (i > start + 2) { array.push([start, i - 1]); }
+          prev = S[i];
+          start = i;
+      }
+  }
+  return array;
 };
