@@ -1,6 +1,7 @@
 # Leet Code
 
-Organizing leet code work problems starting from 10/29
+1. Organizing leet code work problems starting from 10/29
+1. Time Limit of 30 min
 
 ## List (Date - Problem / # - Difficulty)
  - 10/30
