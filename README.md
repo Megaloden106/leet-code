@@ -4,6 +4,9 @@
 1. Time Limit of 30 min
 
 ## List (Date - Problem / # - Difficulty)
+ - 10/31
+   - Minimum Number of Arrows to Burst Balloon / 452 - Medium
+   - TODO 11/7 - 452
  - 10/30
    - Arranging Coins / 441 - Easy
    - Positions of Large Groups / 830 - Easy
