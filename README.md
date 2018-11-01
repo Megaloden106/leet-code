@@ -5,7 +5,7 @@
 
 ## List (Date - Problem / # - Difficulty)
  - 11/1
-   - Spiral Matrix II / 59
+   - Spiral Matrix II / 59 - Medium
  - 10/31
    - Minimum Number of Arrows to Burst Balloon / 452 - Medium
    - TODO 11/7 - 452
