@@ -22,16 +22,17 @@ const wordToDigit = {
  * @param {string} s
  * @return {string}
  */
-var originalDigits = function(s) {
+const originalDigits = function(s) {
   let result = '';
   let storage = {};
+  let length = s.length;
   for (let i = 0; i < s.length; i += 1) {
     storage[s[i]] = storage[s[i]] || 0;
     storage[s[i]] += 1;
   }
-  for (let key in wordToDigit) {
-    let contains = true;
-    while (contains) {
+  while(length > 0) {
+    for (let key in wordToDigit) {
+      let contains = true;
       for (let i = 0; i < key.length; i += 1) {
         if (!storage[key[i]]) {
           contains = false;
@@ -42,6 +43,7 @@ var originalDigits = function(s) {
         for (let i = 0; i < key.length; i+= 1) {
           storage[key[i]] -= 1;
         }
+        length -= key.length;
       }
     }
   }

@@ -4,6 +4,9 @@
 1. Time Limit of 30 min
 
 ## List (Date - Problem / # - Difficulty)
+ - 11/2
+   - Reconstruct Original Digits from English / 423 - Medium
+   - TODO 11/9 - 423
  - 11/1
    - Spiral Matrix II / 59 - Medium
  - 10/31
