@@ -6,7 +6,8 @@
 ## List (Date - Problem / # - Difficulty)
  - 11/5
    - Gray Code / 89 - Medium
-   - TODO 11/12 - 89
+   - Trapping Rain Water II / 407 - Hard
+   - TODO 11/12 - 89, 407
  - 11/2
    - Reconstruct Original Digits from English / 423 - Medium
    - TODO 11/9 - 423
