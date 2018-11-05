@@ -4,6 +4,9 @@
 1. Time Limit of 30 min
 
 ## List (Date - Problem / # - Difficulty)
+ - 11/5
+   - Gray Code / 89 - Medium
+   - TODO 11/12 - 89
  - 11/2
    - Reconstruct Original Digits from English / 423 - Medium
    - TODO 11/9 - 423

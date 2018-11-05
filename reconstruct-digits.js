@@ -27,8 +27,7 @@ const originalDigits = function(s) {
   let storage = {};
   let length = s.length;
   for (let i = 0; i < s.length; i += 1) {
-    storage[s[i]] = storage[s[i]] || 0;
-    storage[s[i]] += 1;
+    storage[s[i]] = (storage[s[i]] || 0) + 1;
   }
   while(length > 0) {
     for (let key in wordToDigit) {
