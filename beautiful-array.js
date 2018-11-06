@@ -10,34 +10,22 @@
  * @return {number[]}
  */
 const beautifulArray = function(N) {
-  let A;
-  const findBeautifulArray = (arr = []) => {
-      if (arr.length >= 3) {
-          for (let i = 0; i < arr.length - 2; i += 1) {
-              for (let k = 1; k < arr.length - 1; k += 1) {
-                  for (let j = 2; j < arr.length; j += 1) {
-                      if (arr[k] * 2 === arr[i] + arr[j]) {
-                          return;
-                      }
-                  }
-              }
-          }
-      }
-      if (arr.length === N && A === undefined) {
-          return A = arr;
-      }
-      const track = {};
-      for (let i = 0; i < arr.length; i += 1) {
-          track[arr[i]] = arr[i];
-      }
-      for (let i = 1; i <= N; i += 1) {
-          let temp = arr.slice();
-          if (!track[i]) {
-              temp.push(i);
-              findBeautifulArray(temp);
-          }
-      }
+  const A = [];
+  for (let i = 1; i <= N; i++) {
+    A.push(i);
   }
-  findBeautifulArray();
-  return A;
+  const beautify = (arr) => {
+    if (arr.length === 1) { return arr; }
+    const odd = [];
+    const even = [];
+    arr.forEach((elem, i) => {
+      i % 2 === 0
+        ? even.push(elem)
+        : odd.push(elem);
+    });
+    return beautify(even).concat(beautify(odd));
+  }
+  return beautify(A);
 };
+
+console.log(beautifulArray(4))
