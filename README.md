@@ -4,6 +4,9 @@
 1. Time Limit of 30 min
 
 ## List (Date - Problem / # - Difficulty)
+ - 11/6
+   - Beautiful Array / 932 - Medium
+   - Pascal's Triangle II - Easy
  - 11/5
    - Gray Code / 89 - Medium
    - Trapping Rain Water II / 407 - Hard
