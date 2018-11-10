@@ -4,6 +4,12 @@
 1. Time Limit of 30 min
 
 ## List (Date - Problem / # - Difficulty)
+ - 11/9
+   - Reconstruct Original Digits from English / 423 - Medium
+ - 11/7
+   - Minimum Number of Arrows to Burst Balloon / 452 - Medium
+   - Almost Increasing Sequence / CodeSignal
+   - TODO 11/14 - 452
  - 11/6
    - Beautiful Array / 932 - Medium
    - Pascal's Triangle II - Easy
