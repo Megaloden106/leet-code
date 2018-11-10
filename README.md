@@ -6,6 +6,7 @@
 ## List (Date - Problem / # - Difficulty)
  - 11/9
    - Reconstruct Original Digits from English / 423 - Medium
+   - Implement strStr() / 28 - Easy
  - 11/7
    - Minimum Number of Arrows to Burst Balloon / 452 - Medium
    - Almost Increasing Sequence / CodeSignal
