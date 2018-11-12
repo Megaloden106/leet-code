@@ -4,6 +4,9 @@
 1. Time Limit of 30 min
 
 ## List (Date - Problem / # - Difficulty)
+ - 11/12
+   - Serialize and Deserialize BST / 449 - Medium
+   - TODO 11/19
  - 11/9
    - Reconstruct Original Digits from English / 423 - Medium
    - Implement strStr() / 28 - Easy
@@ -17,7 +20,7 @@
  - 11/5
    - Gray Code / 89 - Medium
    - Trapping Rain Water II / 407 - Hard
-   - TODO 11/12 - 89, 407
+   - TODO 11/13 - 89, 407
  - 11/2
    - Reconstruct Original Digits from English / 423 - Medium
    - TODO 11/9 - 423
