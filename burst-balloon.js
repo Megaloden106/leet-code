@@ -14,7 +14,7 @@
  */
 const findMinArrowShots = (points) => {
   if (points.length === 0) { return 0; }
-  points.sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+  points.sort((a, b) => a[0] - b[0]);
   console.log(points)
   let arrows = 0;
   let prev = points[0][0] - 1;
@@ -29,10 +29,10 @@ const findMinArrowShots = (points) => {
   return arrows;
 };
 
-// let points = [[10,16],[2,8],[1,8],[1,6],[7,12]];
-// let solution = findMinArrowShots(points);
-// console.log(solution);
+let points = [[10,16],[2,8],[1,8],[1,6],[7,12]];
+let solution = findMinArrowShots(points);
+console.log(solution);
 
-// points = [[9,12],[1,10],[4,11],[8,12],[3,9],[6,9],[6,7]];
-// solution = findMinArrowShots(points);
-// console.log(solution);
+points = [[9,12],[1,10],[4,11],[8,12],[3,9],[6,9],[6,7]];
+solution = findMinArrowShots(points);
+console.log(solution);
