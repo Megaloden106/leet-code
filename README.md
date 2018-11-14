@@ -4,6 +4,10 @@
 1. Time Limit of 30 min
 
 ## List (Date - Problem / # - Difficulty)
+ - 11/13
+   - Gray Code / 89 - Medium
+   - Trapping Rain Water II / 407 - Hard
+   - TODO 11/15 - 407
  - 11/12
    - Serialize and Deserialize BST / 449 - Medium
    - TODO 11/19
