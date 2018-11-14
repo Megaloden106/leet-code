@@ -12,12 +12,27 @@
  * @param {number[][]} points
  * @return {number}
  */
-const findMinArrowShots = function(points) {
-  let min;
-  let xMax = 0;
-  points.forEach(point => xMax = Math.max(xMax, point[1]));
+const findMinArrowShots = (points) => {
+  if (points.length === 0) { return 0; }
+  points.sort((a, b) => a[0] - b[0] || a[1] - b[1]);
+  console.log(points)
+  let arrows = 0;
+  let prev = points[0][0] - 1;
+  points.forEach(balloon => {
+    if (balloon[0] > prev) {
+      arrows += 1;
+      prev = balloon[1];
+    } else {
+      prev = Math.min(prev, balloon[1])
+    }
+  });
+  return arrows;
 };
 
-const points = [[10,16],[2,8],[1,6],[7,12]];
-const solution = findMinArrowShots(points);
-console.log(solution);
+// let points = [[10,16],[2,8],[1,8],[1,6],[7,12]];
+// let solution = findMinArrowShots(points);
+// console.log(solution);
+
+// points = [[9,12],[1,10],[4,11],[8,12],[3,9],[6,9],[6,7]];
+// solution = findMinArrowShots(points);
+// console.log(solution);
