@@ -4,6 +4,9 @@
 1. Time Limit of 30 min
 
 ## List (Date - Problem / # - Difficulty)
+ - 11/15
+   - Trapping Rain Water II / 407 - Hard
+   - TODO 11/22 - 407
  - 11/14
    - Minimum Number of Arrows to Burst Balloon / 452 - Medium
    - Patching Array / 330 - Hard
