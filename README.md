@@ -7,6 +7,7 @@
  - 11/14
    - Minimum Number of Arrows to Burst Balloon / 452 - Medium
    - Patching Array / 330 - Hard
+   - TODO 11/21 - 330
  - 11/13
    - Gray Code / 89 - Medium
    - Trapping Rain Water II / 407 - Hard

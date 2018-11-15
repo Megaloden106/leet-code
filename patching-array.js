@@ -9,5 +9,13 @@
  * @return {number}
  */
 const minPatches = (nums, n) => {
-  
 };
+
+let nums = [1,3];
+console.log(minPatches(nums, 6));
+
+// nums = [1,5,10];
+// console.log(minPatches(nums, 20));
+
+// nums = [1,2,2];
+// console.log(minPatches(nums, 5));
