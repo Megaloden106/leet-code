@@ -9,6 +9,29 @@
  * @return {number}
  */
 const minPatches = (nums, n) => {
+  let count = [];
+  let patches = 0;
+  for (let i = 0; i < nums.length; i += 1) {
+    const num = nums[i];
+    nums[i] = null;
+    count[num - 1] = num;
+    nums.forEach(add => count[num + add - 1] = num + add);
+    nums[i] = num;
+  };
+  count.forEach((bool, i) => {
+    if (!bool) {
+      patches += 1;
+      console.log(i)
+      count[i] = i + 1;
+      nums.forEach(num => {
+        console.log(num);
+        count[num + i] = num + i + 1;
+      })
+      // nums.push(i + 1);
+    }
+  })
+  console.log(count)
+  return patches;
 };
 
 let nums = [1,3];
