@@ -6,6 +6,7 @@
 ## List (Date - Problem / # - Difficulty)
  - 11/16
    - Binary Tree Level Order Traversal / 102 - Medium
+   - Implement Magic Dictionary / 676 - Medium
  - 11/15
    - Trapping Rain Water II / 407 - Hard
    - Remove Linked List Elements / 203 - Easy
