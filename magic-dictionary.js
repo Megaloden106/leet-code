@@ -10,25 +10,42 @@
  * Initialize your data structure here.
  */
 const MagicDictionary = function() {
-    
+  this.storage = {};
 };
 
 /**
- * Build a dictionary through a list of words 
+ * Build a dictionary through a list of words
  * @param {string[]} dict
  * @return {void}
  */
 MagicDictionary.prototype.buildDict = function(dict) {
-  
+  dict = dict.sort((a, b) => a - b);
+  dict.forEach(word => {
+    this.storage[word.length] = this.storage[word.length] || [];
+    this.storage[word.length].push(word);
+  });
+  return null;
 };
 
 /**
- * Returns if there is any word in the trie that equals to the given word after modifying exactly one character 
+ * Returns if there is any word in the trie that equals to the given word after modifying exactly one character
  * @param {string} word
  * @return {boolean}
  */
 MagicDictionary.prototype.search = function(word) {
-  
+  const storage = this.storage[word.length];
+  let result = false;
+  if (storage) {
+    storage.forEach(elem => {
+      let errors = 0;
+      for (let i = 0; i < word.length; i += 1) {
+        if (word[i] !== elem[i]) errors += 1
+        if (errors > 1) break;
+      }
+      result = result || errors ===  1;
+    });
+  }
+  return result;
 };
 
 /**
