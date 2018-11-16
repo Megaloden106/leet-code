@@ -4,13 +4,16 @@
 1. Time Limit of 30 min
 
 ## List (Date - Problem / # - Difficulty)
+ - 11/16
+   - Binary Tree Level Order Traversal / 102 - Medium
  - 11/15
    - Trapping Rain Water II / 407 - Hard
    - Remove Linked List Elements / 203 - Easy
    - Valid Palindrome II / 680 - Easy
    - Swap Nodes in Pairs / 24 - Medium
    - Knight Dialer / 935 - Medium
-   - TODO 11/22 - 407, 935
+   - Reverse Pairs / 493 - Hard
+   - TODO 11/22 - 407, 935, 493
  - 11/14
    - Minimum Number of Arrows to Burst Balloon / 452 - Medium
    - Patching Array / 330 - Hard
