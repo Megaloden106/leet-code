@@ -11,7 +11,7 @@
  * @param {ListNode} head
  * @return {ListNode}
  */
-var swapPairs = (head) => {
+const swapPairs = (head) => {
   if (!head || !head.next) { return head; }
   let node = head;
   while (node && node.next) {
