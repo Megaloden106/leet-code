@@ -10,5 +10,18 @@
  * @return {boolean}
  */
 const rotateString = (A, B) => {
-  
+  if (A.length !== B.length) return false;
+  if (A === B) return true;
+  for (let i = 0; i < A.length; i += 1) {
+    if (A.slice(i) + A.slice(0, i) === B) return true;
+  }
+  return false;
 };
+
+let A = 'abcde'
+let B = 'cdeab';
+console.log(rotateString(A, B));
+
+A = 'abcde';
+B = 'abced';
+console.log(rotateString(A, B));
