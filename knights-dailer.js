@@ -56,6 +56,23 @@ const knightDialer = (N) => {
   return s;
 };
 
+const knightDialerBot = (N) => {
+  let s = 0;
+  for (let i = 1; i < N; i += 1) {
+    for (let k in m) {
+      c[k][i] = 0;
+      m[k].forEach(j => {
+        c[k][i] += c[j][i - 1];
+      });
+      if (i === N - 1) s += c[k][N - 1];
+    }
+  }
+  return s;
+};
+
 console.time('1');
-console.log(knightDialer(161));
+console.log(knightDialer(5));
+console.timeEnd('1');
+console.time('1');
+console.log(knightDialerBot(5));
 console.timeEnd('1');
