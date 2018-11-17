@@ -4,12 +4,14 @@
 1. Time Limit of 30 min
 
 ## List (Date - Problem / # - Difficulty)
+ - 11/17
+   - Super Palindrome / 906 - Hard
  - 11/16
    - Binary Tree Level Order Traversal / 102 - Medium
    - Implement Magic Dictionary / 676 - Medium
    - Rotate String / 796 - Easy
    - Min Stack / 155 - Easy
-   - Super Palindrome / 906 - Hard
+   - Num Ways Staircase / Online
  - 11/15
    - Trapping Rain Water II / 407 - Hard
    - Remove Linked List Elements / 203 - Easy
