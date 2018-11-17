@@ -42,13 +42,13 @@ const c = {
 const knightDialer = (N) => {
   let s = 0;
   const numWays = (k, n) => {
-    if (n === 0) return 1;
-    if (n === 1) return m[k].length;
-    t = 0;
+    if (n < 0) return c[k][0];
+    if (n === 1) return c[k][n] = m[k].length;
+    c[k][n] = 0;
     m[k].forEach(j => {
-      t += numWays(j, n - 1);
+      c[k][n] += c[j][n - 1] || numWays(j, n - 1);
     });
-    return t;
+    return c[k][n];
   }
   for (let k in m) {
     s += numWays(k, N - 1);
@@ -56,9 +56,6 @@ const knightDialer = (N) => {
   return s;
 };
 
-// console.log(knightDialer(1)) // 10
-// console.log(knightDialer(1)) // 10
-// console.log(knightDialer(2)) // 20
-// console.log(knightDialer(3)) // 46
-// console.log(knightDialer(4)) // 104
-console.log(knightDialer(5)) // 240
+console.time('1');
+console.log(knightDialer(161));
+console.timeEnd('1');
