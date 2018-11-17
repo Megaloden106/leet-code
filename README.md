@@ -9,6 +9,7 @@
    - Implement Magic Dictionary / 676 - Medium
    - Rotate String / 796 - Easy
    - Min Stack / 155 - Easy
+   - Super Palindrome / 906 - Hard
  - 11/15
    - Trapping Rain Water II / 407 - Hard
    - Remove Linked List Elements / 203 - Easy

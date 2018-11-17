@@ -8,5 +8,5 @@
  * @return {number}
  */
 const superpalindromesInRange = (L, R) => {
-    
+
 };
