@@ -9,10 +9,56 @@
 
 // Since the answer may be large, output the answer modulo 10^9 + 7.
 
+const m = {
+  0: [4, 6],
+  1: [6, 8],
+  2: [7, 9],
+  3: [4, 8],
+  4: [3, 9, 0],
+  5: [],
+  6: [1, 7, 0],
+  7: [2, 6],
+  8: [1, 3],
+  9: [2, 4],
+}
+
+const c = {
+  0: [1],
+  1: [1],
+  2: [1],
+  3: [1],
+  4: [1],
+  5: [1],
+  6: [1],
+  7: [1],
+  8: [1],
+  9: [1],
+}
+
 /**
  * @param {number} N
  * @return {number}
  */
 const knightDialer = (N) => {
-  
+  let s = 0;
+  const numWays = (k, n) => {
+    if (n === 0) return 1;
+    if (n === 1) return m[k].length;
+    t = 0;
+    m[k].forEach(j => {
+      t += numWays(j, n - 1);
+    });
+    return t;
+  }
+  for (let k in m) {
+    s += numWays(k, N - 1);
+  }
+  return s;
 };
+
+// console.log(knightDialer(1)) // 10
+// console.log(knightDialer(1)) // 10
+// console.log(knightDialer(2)) // 20
+// console.log(knightDialer(3)) // 46
+// console.log(knightDialer(4)) // 104
+console.log(knightDialer(5)) // 240

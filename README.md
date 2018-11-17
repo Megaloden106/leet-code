@@ -6,6 +6,8 @@
 ## List (Date - Problem / # - Difficulty)
  - 11/17
    - Super Palindrome / 906 - Hard
+   - Knight Dialer / 935 - Medium
+   - TODO 11/22 - 906
  - 11/16
    - Binary Tree Level Order Traversal / 102 - Medium
    - Implement Magic Dictionary / 676 - Medium
