@@ -8,5 +8,8 @@
  * @return {number}
  */
 const superpalindromesInRange = (L, R) => {
-
 };
+
+let L = '10000';
+let R = '10000000'
+console.log(superpalindromesInRange(L, R)); // 8
