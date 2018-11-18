@@ -71,8 +71,8 @@ const knightDialerBot = (N) => {
 };
 
 console.time('1');
-console.log(knightDialer(5));
+console.log(knightDialer(161));
 console.timeEnd('1');
 console.time('1');
-console.log(knightDialerBot(5));
+console.log(knightDialerBot(161));
 console.timeEnd('1');
