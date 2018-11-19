@@ -4,10 +4,12 @@
 1. Time Limit of 30 min
 
 ## List (Date - Problem / # - Difficulty)
+ - 11/19
+   - Non-negative Integers without Consecutive Ones / 600 - Hard
+   - Set Matrix Zeroes / 73 - Medium
  - 11/17
    - Super Palindrome / 906 - Hard
    - Knight Dialer / 935 - Medium
-   - Non-negative Integers without Consecutive Ones / 600 - Hard
    - TODO 11/22 - 906, 935
  - 11/16
    - Binary Tree Level Order Traversal / 102 - Medium
