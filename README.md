@@ -7,6 +7,7 @@
  - 11/19
    - Non-negative Integers without Consecutive Ones / 600 - Hard
    - Set Matrix Zeroes / 73 - Medium
+   - Count Complete Tree Nodes / 222 - Medium
  - 11/17
    - Super Palindrome / 906 - Hard
    - Knight Dialer / 935 - Medium
