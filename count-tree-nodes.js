@@ -11,10 +11,4 @@
  * @param {TreeNode} root
  * @return {number}
  */
-const countNodes = (root) => {
-  if (root === null) return 0;
-  let s = 0
-  s += countNodes(root.left);
-  s += countNodes(root.right);
-  return s += 1;
-};
+const countNodes = (root) => root === null ? 0 : 1 + countNodes(root.left) + countNodes(root.right);
