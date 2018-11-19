@@ -12,5 +12,9 @@
  * @return {number}
  */
 const countNodes = (root) => {
-  
+  if (root === null) return 0;
+  let s = 0
+  s += countNodes(root.left);
+  s += countNodes(root.right);
+  return s += 1;
 };
