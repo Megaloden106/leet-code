@@ -7,19 +7,18 @@
  * @return {number}
  */
 const findIntegers = (num) => {
-  let s = 0;
-  for (let i = 5; i <= num; i += 1) {
-    let b = true;
-    console.log(i);
-    for (let j = 3; j <= i; j <<= 1) {
-      if (j === (i & j)) {
-        console.log(i)
-        b = false;
-      }
+  const search = (n) => {
+    if (n > num) return 0;
+    let s = 0
+    if (n === 0) {
+      s += search(1);
+    } else {
+      s += search(n << 1)
+      if (!(n & 1)) s += search((n << 1) | 1);
     }
-    s += b;
+    return s += n <= num;
   }
-  return s;
+  return search(0);
 };
 
 console.log(findIntegers(5));
