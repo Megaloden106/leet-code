@@ -4,6 +4,10 @@
 1. Time Limit of 30 min
 
 ## List (Date - Problem / # - Difficulty)
+ - 11/20
+   - Serialize and Deserialize BST / 449 - Medium
+   - Matchsticks to Square / 473 - Medium
+   - TODO 11/27 449, 473
  - 11/19
    - Non-negative Integers without Consecutive Ones / 600 - Hard
    - Set Matrix Zeroes / 73 - Medium
@@ -11,10 +15,11 @@
    - Number of Boomerangs / 447 - Easy
    - Find Peak Element / 162 - Medium
    - Flip String to Monotone Increasing / 926 - Medium
+   - TODO 11/25 - 926
  - 11/17
    - Super Palindrome / 906 - Hard
    - Knight Dialer / 935 - Medium
-   - TODO 11/22 - 906, 935
+   - TODO 11/24 - 906, 935
  - 11/16
    - Binary Tree Level Order Traversal / 102 - Medium
    - Implement Magic Dictionary / 676 - Medium
@@ -28,7 +33,7 @@
    - Swap Nodes in Pairs / 24 - Medium
    - Knight Dialer / 935 - Medium
    - Reverse Pairs / 493 - Hard
-   - TODO 11/22 - 407, 935, 493
+   - TODO 11/22 - 407, 493
  - 11/14
    - Minimum Number of Arrows to Burst Balloon / 452 - Medium
    - Patching Array / 330 - Hard
@@ -39,7 +44,7 @@
    - TODO 11/15 - 407
  - 11/12
    - Serialize and Deserialize BST / 449 - Medium
-   - TODO 11/19
+   - TODO 11/20
  - 11/9
    - Reconstruct Original Digits from English / 423 - Medium
    - Implement strStr() / 28 - Easy

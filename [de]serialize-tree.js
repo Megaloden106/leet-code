@@ -47,16 +47,15 @@ class TreeNode {
  * @return {string}
  */
 const serialize = function(root) {
-  let str = '';
-  const df = (node = root) => {
-    str += node ? node.val : null;
-    str += ',';
-    if (!node) { return; }
-    df(node.left);
-    df(node.right);
+  const vals = [];
+  const DFS = (node = root) => {
+    vals.push(node ? node.val : node);
+    if (!node) return;
+    DFS(node.left);
+    DFS(node.right);
   }
-  if (root.val) { df(); }
-  return str;
+  DFS();
+  return vals;
 };
 
 /**
@@ -66,22 +65,28 @@ const serialize = function(root) {
  * @return {TreeNode}
  */
 const deserialize = function(data) {
-  data = data.split(',').map(elem => Number(elem) || null);
+  if (data[0] === null) return null;
   const root = new TreeNode(data[0]);
-  const df = (node = root, i = 1) => {
-    if (i >= data.length - 1) { return i + 1; }
-    if (data[i] === null) { return i + 1; }
-    console.log(data[i])
-    node.left = new TreeNode(data[i]);
-    i = df(node.left, i + 1);
-    console.log(data[i])
-    node.right = new TreeNode(data[i]);
-    i = df(node.right, i + 1);
-    console.log(data[i])
-    return i;
-  };
-  df();
-  return root.val !== '' ? root : null;
+  const DFS = (node = root, idx = 1) => {
+    if (idx >= data.length) return idx + 1;
+    if (data[idx]) {
+      node.left = new TreeNode(data[idx]);
+      idx = DFS(node.left, idx + 1);
+    } else {
+      node.left = null;
+      idx += 1;
+    }
+    if (data[idx]) {
+      node.right = new TreeNode(data[idx]);
+      idx = DFS(node.right, idx + 1);
+    } else {
+      node.right = null;
+      idx += 1;
+    }
+    return idx;
+  }
+  DFS();
+  return root;
 };
 
 /**
@@ -89,15 +94,16 @@ const deserialize = function(data) {
  * deserialize(serialize(root));
  */
 
-const root = new TreeNode(41);
-root.add(37);
-root.add(44);
-root.add(24);
-root.add(4);
-root.add(7);
+// const root = new TreeNode(41);
+// root.add(37);
+// root.add(44);
+// root.add(24);
+// root.add(4);
+// root.add(7);
 
-console.log(JSON.stringify(root));
+const root = null
+
 const s = serialize(root);
 console.log(s);
 const d = deserialize(s);
-console.log(JSON.stringify(d));
+console.log(serialize(d));
