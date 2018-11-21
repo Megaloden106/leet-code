@@ -6,6 +6,7 @@
 ## List (Date - Problem / # - Difficulty)
  - 11/21
    - Patching Array / 330 - Hard
+   - Count The Repetitions / 466 - Hard
    - TODO 11/28
  - 11/20
    - Serialize and Deserialize BST / 449 - Medium
