@@ -9,7 +9,8 @@
    - Matchsticks to Square / 473 - Medium
    - Construct the Rectangle / 492 - Easy
    - Most Profit Assigning Work / 826 - Medium
-   - TODO 11/27 449, 473
+   - Implement Trie (Prefix Tree) / 208 - Medium
+   - TODO 11/27 449, 473, 208
  - 11/19
    - Non-negative Integers without Consecutive Ones / 600 - Hard
    - Set Matrix Zeroes / 73 - Medium
