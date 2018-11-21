@@ -7,6 +7,8 @@
  - 11/20
    - Serialize and Deserialize BST / 449 - Medium
    - Matchsticks to Square / 473 - Medium
+   - Construct the Rectangle / 492 - Easy
+   - Most Profit Assigning Work / 826 - Medium
    - TODO 11/27 449, 473
  - 11/19
    - Non-negative Integers without Consecutive Ones / 600 - Hard
