@@ -4,6 +4,9 @@
 1. Time Limit of 30 min
 
 ## List (Date - Problem / # - Difficulty)
+ - 11/21
+   - Patching Array / 330 - Hard
+   - TODO 11/28
  - 11/20
    - Serialize and Deserialize BST / 449 - Medium
    - Matchsticks to Square / 473 - Medium

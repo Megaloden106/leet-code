@@ -9,13 +9,26 @@
  * @return {number}
  */
 const minPatches = (nums, n) => {
+  let patches = 0;
+  let sum = 0;
+  let idx = 0;
+  while (sum < n) {
+    if (nums[idx] <= sum + 1) {
+      sum += nums[idx];
+      idx += 1;
+    } else {
+      patches += 1;
+      sum += sum + 1;
+    }
+  }
+  return patches
 };
 
 let nums = [1,3];
 console.log(minPatches(nums, 6));
 
-// nums = [1,5,10];
-// console.log(minPatches(nums, 20));
+nums = [1,5,10];
+console.log(minPatches(nums, 20));
 
-// nums = [1,2,2];
-// console.log(minPatches(nums, 5));
+nums = [1,2,2];
+console.log(minPatches(nums, 5));
