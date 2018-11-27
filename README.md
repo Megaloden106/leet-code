@@ -4,17 +4,27 @@
 1. Time Limit of 30 min
 
 ## List (Date - Problem / # - Difficulty)
+ - 11/26
+   - Super Palindrome / 906 - Hard
+   - Knight Dialer / 935 - Medium
+   - Flip String to Monotone Increasing / 926 - Medium
+   - Sort List / 148 - Medium
+   - TODO 12/3 - 926, 148
+ - 11/22
+   - Trapping Rain Water II / 407 - Hard
+   - Reverse Pairs / 493 - Hard
+   - TODO 11/29 - 493, 407
  - 11/21
    - Patching Array / 330 - Hard
    - Count The Repetitions / 466 - Hard
-   - TODO 11/28
+   - TODO 11/28 - 466
  - 11/20
    - Serialize and Deserialize BST / 449 - Medium
    - Matchsticks to Square / 473 - Medium
    - Construct the Rectangle / 492 - Easy
    - Most Profit Assigning Work / 826 - Medium
    - Implement Trie (Prefix Tree) / 208 - Medium
-   - TODO 11/27 449, 473, 208
+   - TODO 11/27 - 449, 473, 208
  - 11/19
    - Non-negative Integers without Consecutive Ones / 600 - Hard
    - Set Matrix Zeroes / 73 - Medium
@@ -22,11 +32,11 @@
    - Number of Boomerangs / 447 - Easy
    - Find Peak Element / 162 - Medium
    - Flip String to Monotone Increasing / 926 - Medium
-   - TODO 11/25 - 926
+   - TODO 11/26 - 926
  - 11/17
    - Super Palindrome / 906 - Hard
    - Knight Dialer / 935 - Medium
-   - TODO 11/24 - 906, 935
+   - TODO 11/26 - 906, 935
  - 11/16
    - Binary Tree Level Order Traversal / 102 - Medium
    - Implement Magic Dictionary / 676 - Medium
