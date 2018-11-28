@@ -4,6 +4,8 @@
  * Initialize your data structure here.
  */
 var Trie = function() {
+  this.end = false;
+  this.children = {};
 };
 
 /**
@@ -12,6 +14,10 @@ var Trie = function() {
  * @return {void}
  */
 Trie.prototype.insert = function(word) {
+  if (word.length === 0) return this.end = true;
+  const char = word[0];
+  this.children[char] = this.children[char] || new Trie();
+  this.children[char].insert(word.slice(1));
 };
 
 /**
@@ -20,6 +26,12 @@ Trie.prototype.insert = function(word) {
  * @return {boolean}
  */
 Trie.prototype.search = function(word) {
+  if (word.length === 0) return this.end;
+  const char = word[0];
+  if (this.children[char]) {
+    return this.children[char].search(word.slice(1));
+  }
+  return false;
 };
 
 /**
@@ -28,6 +40,12 @@ Trie.prototype.search = function(word) {
  * @return {boolean}
  */
 Trie.prototype.startsWith = function(prefix) {
+  if (prefix.length === 0) return true;
+  const char = prefix[0];
+  if (this.children[char]) {
+    return this.children[char].startsWith(prefix.slice(1));
+  }
+  return false;
 };
 
 /**
@@ -41,19 +59,24 @@ Trie.prototype.startsWith = function(prefix) {
 // const trie = new Trie();
 // trie.insert("apple");
 // let a = trie.search("apple");   // returns true
+// console.log(a)
 // let b = trie.search("app");     // returns false
+// console.log(b)
 // let c = trie.startsWith("app"); // returns true
+// console.log(c)
 // trie.insert("app");
 // let d = trie.search("app");     // returns true
-// console.log(a, b, c, d)
+// console.log(d)
 
-// const trie = new Trie();
-// trie.insert("abc");
-// let a = trie.search("abc");   // returns true
-// let b = trie.search("ab");     // returns false
-// trie.insert("ab");
-// let c= trie.search("ab");     // returns false
-// trie.insert("ab");
-// console.log(trie)
-// let d = trie.search("ab");     // returns true
-// console.log(a, b, c, d)
+const trie = new Trie();
+trie.insert("abc");
+let a = trie.search("abc");   // returns true
+console.log(a)
+let b = trie.search("ab");     // returns false
+console.log(b)
+trie.insert("ab");
+let c = trie.search("ab");     // returns true
+console.log(c)
+trie.insert("ab");
+let d = trie.search("ab");     // returns true
+console.log(d)

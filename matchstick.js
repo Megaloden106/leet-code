@@ -11,23 +11,7 @@
  * @return {boolean}
  */
 const makesquare = (nums) => {
-  if (nums.length < 4) return false;
-  let size = 0;
-  let max = 0;
-  let storage = {};
-  nums.forEach(num => {
-    max = Math.max(max, num);
-    size += num;
-    storage[num] = (storage[num] || 0) + 1;
-  });
-  const edge = size /4;
-  if (edge % 1 !== 0) return false;
-  if (max > edge) return false;
-  for (let k in storage) {
-    let matchK = edge - Number(k);
-    if (matchK !== 0 && !storage[matchK]) return false
-  }
-  return true;
+
 };
 
 console.log(makesquare([1,1,2,2,2]))

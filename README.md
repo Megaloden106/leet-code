@@ -4,6 +4,12 @@
 1. Time Limit of 30 min
 
 ## List (Date - Problem / # - Difficulty)
+ - 11/27
+   - Serialize and Deserialize BST / 449 - Medium
+   - Implement Trie (Prefix Tree) / 208 - Medium
+   - Longest Substring Without Repeating Characters / 3 - Medium
+   - Median of Two Sorted Arrays / 4 - Hard
+   - Matchsticks to Square / 473 - Medium
  - 11/26
    - Super Palindrome / 906 - Hard
    - Knight Dialer / 935 - Medium

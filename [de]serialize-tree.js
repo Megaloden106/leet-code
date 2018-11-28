@@ -46,16 +46,16 @@ class TreeNode {
  * @param {TreeNode} root
  * @return {string}
  */
-const serialize = function(root) {
-  const vals = [];
+const serialize = (root) => {
+  if (!root) return "[]";
+  const values = [];
   const DFS = (node = root) => {
-    vals.push(node ? node.val : node);
-    if (!node) return;
-    DFS(node.left);
-    DFS(node.right);
+    values.push(node.val);
+    if (node.left) DFS(node.left);
+    if (node.right) DFS(node.right);
   }
   DFS();
-  return vals;
+  return JSON.stringify(values);
 };
 
 /**
@@ -64,29 +64,16 @@ const serialize = function(root) {
  * @param {string} data
  * @return {TreeNode}
  */
-const deserialize = function(data) {
-  if (data[0] === null) return null;
-  const root = new TreeNode(data[0]);
-  const DFS = (node = root, idx = 1) => {
-    if (idx >= data.length) return idx + 1;
-    if (data[idx]) {
-      node.left = new TreeNode(data[idx]);
-      idx = DFS(node.left, idx + 1);
-    } else {
-      node.left = null;
-      idx += 1;
-    }
-    if (data[idx]) {
-      node.right = new TreeNode(data[idx]);
-      idx = DFS(node.right, idx + 1);
-    } else {
-      node.right = null;
-      idx += 1;
-    }
-    return idx;
+const deserialize = (data) => {
+  const values = JSON.parse(data);
+  const DFS = (array = values) => {
+    if (array.length === 0) return null;
+    const node = new TreeNode(array[0]);
+    node.left = DFS(array.filter(num => num < array[0]));
+    node.right = DFS(array.filter(num => num > array[0]));
+    return node;
   }
-  DFS();
-  return root;
+  return DFS();
 };
 
 /**
@@ -101,9 +88,10 @@ const deserialize = function(data) {
 // root.add(4);
 // root.add(7);
 
-const root = null
+const root = null;
 
 const s = serialize(root);
 console.log(s);
 const d = deserialize(s);
+console.log(d)
 console.log(serialize(d));
