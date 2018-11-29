@@ -4,12 +4,19 @@
 1. Time Limit of 30 min
 
 ## List (Date - Problem / # - Difficulty)
+ - 11/28
+   - Count The Repetitions / 466 - Hard
+   - Reverse Integer / 7 - Easy
+   - String to Integer (atoi) / 8 - Medium
+   - TODO 12/5
  - 11/27
    - Serialize and Deserialize BST / 449 - Medium
    - Implement Trie (Prefix Tree) / 208 - Medium
    - Longest Substring Without Repeating Characters / 3 - Medium
    - Median of Two Sorted Arrays / 4 - Hard
+   - Longest Palindromic Substring / 5 - Medium
    - Matchsticks to Square / 473 - Medium
+   - TODO 12/4 - 5, 473
  - 11/26
    - Super Palindrome / 906 - Hard
    - Knight Dialer / 935 - Medium
