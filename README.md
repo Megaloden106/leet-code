@@ -9,6 +9,10 @@
    - Remove Duplicates from Sorted List / 83 - Easy
    - Reverse Words in a String III / 557 - Easy
    - Shuffle An Array / 384 - Medium
+   - Big Countries / 595 - Easy
+   - Reverse String / 344 - Easy
+   - Longest Common Prefix / 14 - Easy
+   - Champagne Tower / 799 - Medium
  - 11/29
    - Count The Repetitions / 466 - Hard
    - Trapping Rain Water II / 407 - Hard
