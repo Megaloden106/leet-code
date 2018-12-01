@@ -4,8 +4,19 @@
 1. Time Limit of 30 min
 
 ## List (Date - Problem / # - Difficulty)
- - 11/28
+ - 11/30
+   - Minimum Gene Mutation / 433 - Medium
+   - Remove Duplicates from Sorted List / 83 - Easy
+   - Reverse Words in a String III / 557 - Easy
+   - Shuffle An Array / 384 - Medium
+ - 11/29
    - Count The Repetitions / 466 - Hard
+   - Trapping Rain Water II / 407 - Hard
+   - Trim a Binary Search Tree / 669 - Easy
+   - K-th Smallest in Lexicographical Order / 440 - Hard
+   - Reverse Pairs / 493 - Hard
+   - TODO 12/6 - 466, 407, 440
+ - 11/28
    - Reverse Integer / 7 - Easy
    - String to Integer (atoi) / 8 - Medium
    - TODO 12/5
