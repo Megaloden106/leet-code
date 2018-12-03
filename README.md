@@ -4,6 +4,10 @@
 1. Time Limit of 30 min
 
 ## List (Date - Problem / # - Difficulty)
+ - 12/3
+   - Merge Two Sorted Lists / 21 - Easy
+ - 12/1
+   - Champagne Tower / 799 - Medium
  - 11/30
    - Minimum Gene Mutation / 433 - Medium
    - Remove Duplicates from Sorted List / 83 - Easy

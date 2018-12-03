@@ -20,5 +20,19 @@
  * @return {number}
  */
 const champagneTower = (poured, query_row, query_glass) => {
-  
+  const tower = [[poured]];
+  for (let i = 1; i <= query_row; i++) {
+    let row = [];
+    for (let j = 0; j <= i; j++) {
+      let overflowL = tower[i - 1][j - 1] - 1;
+      overflowL = overflowL >= 0 ? overflowL : 0;
+      let overflowR = tower[i - 1][j] - 1;
+      overflowR = overflowR >= 0 ? overflowR : 0;
+      row[j] = (overflowL + overflowR) / 2;
+    }
+    tower.push(row);
+  }
+  return Math.min(tower[query_row][query_glass], 1);
 };
+
+console.log(champagneTower(6,3,1))
