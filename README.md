@@ -3,124 +3,112 @@
 1. Organizing leet code work problems starting from 10/29
 1. Time Limit of 30 min
 
+## TODO
+- 12/5 - 5M, 473M, 926M, 148M, 218H
+- 12/6 - 466H, 407H, 440H
+
 ## List (Date - Problem / # - Difficulty)
- - 12/3
-   - Merge Two Sorted Lists / 21 - Easy
- - 12/1
-   - Champagne Tower / 799 - Medium
- - 11/30
-   - Minimum Gene Mutation / 433 - Medium
-   - Remove Duplicates from Sorted List / 83 - Easy
-   - Reverse Words in a String III / 557 - Easy
-   - Shuffle An Array / 384 - Medium
-   - Big Countries / 595 - Easy
-   - Reverse String / 344 - Easy
-   - Longest Common Prefix / 14 - Easy
-   - Champagne Tower / 799 - Medium
- - 11/29
-   - Count The Repetitions / 466 - Hard
-   - Trapping Rain Water II / 407 - Hard
-   - Trim a Binary Search Tree / 669 - Easy
-   - K-th Smallest in Lexicographical Order / 440 - Hard
-   - Reverse Pairs / 493 - Hard
-   - TODO 12/6 - 466, 407, 440
- - 11/28
-   - Reverse Integer / 7 - Easy
-   - String to Integer (atoi) / 8 - Medium
-   - TODO 12/5
- - 11/27
-   - Serialize and Deserialize BST / 449 - Medium
-   - Implement Trie (Prefix Tree) / 208 - Medium
-   - Longest Substring Without Repeating Characters / 3 - Medium
-   - Median of Two Sorted Arrays / 4 - Hard
-   - Longest Palindromic Substring / 5 - Medium
-   - Matchsticks to Square / 473 - Medium
-   - TODO 12/4 - 5, 473
- - 11/26
-   - Super Palindrome / 906 - Hard
-   - Knight Dialer / 935 - Medium
-   - Flip String to Monotone Increasing / 926 - Medium
-   - Sort List / 148 - Medium
-   - TODO 12/3 - 926, 148
- - 11/22
-   - Trapping Rain Water II / 407 - Hard
-   - Reverse Pairs / 493 - Hard
-   - TODO 11/29 - 493, 407
- - 11/21
-   - Patching Array / 330 - Hard
-   - Count The Repetitions / 466 - Hard
-   - TODO 11/28 - 466
- - 11/20
-   - Serialize and Deserialize BST / 449 - Medium
-   - Matchsticks to Square / 473 - Medium
-   - Construct the Rectangle / 492 - Easy
-   - Most Profit Assigning Work / 826 - Medium
-   - Implement Trie (Prefix Tree) / 208 - Medium
-   - TODO 11/27 - 449, 473, 208
- - 11/19
-   - Non-negative Integers without Consecutive Ones / 600 - Hard
-   - Set Matrix Zeroes / 73 - Medium
-   - Count Complete Tree Nodes / 222 - Medium
-   - Number of Boomerangs / 447 - Easy
-   - Find Peak Element / 162 - Medium
-   - Flip String to Monotone Increasing / 926 - Medium
-   - TODO 11/26 - 926
- - 11/17
-   - Super Palindrome / 906 - Hard
-   - Knight Dialer / 935 - Medium
-   - TODO 11/26 - 906, 935
- - 11/16
-   - Binary Tree Level Order Traversal / 102 - Medium
-   - Implement Magic Dictionary / 676 - Medium
-   - Rotate String / 796 - Easy
-   - Min Stack / 155 - Easy
-   - Num Ways Staircase / Dynamic Programming
- - 11/15
-   - Trapping Rain Water II / 407 - Hard
-   - Remove Linked List Elements / 203 - Easy
-   - Valid Palindrome II / 680 - Easy
-   - Swap Nodes in Pairs / 24 - Medium
-   - Knight Dialer / 935 - Medium
-   - Reverse Pairs / 493 - Hard
-   - TODO 11/22 - 407, 493
- - 11/14
-   - Minimum Number of Arrows to Burst Balloon / 452 - Medium
-   - Patching Array / 330 - Hard
-   - TODO 11/21 - 330
- - 11/13
-   - Gray Code / 89 - Medium
-   - Trapping Rain Water II / 407 - Hard
-   - TODO 11/15 - 407
- - 11/12
-   - Serialize and Deserialize BST / 449 - Medium
-   - TODO 11/20
- - 11/9
-   - Reconstruct Original Digits from English / 423 - Medium
-   - Implement strStr() / 28 - Easy
- - 11/7
-   - Minimum Number of Arrows to Burst Balloon / 452 - Medium
-   - Almost Increasing Sequence / CodeSignal
-   - TODO 11/14 - 452
- - 11/6
-   - Beautiful Array / 932 - Medium
-   - Pascal's Triangle II - Easy
- - 11/5
-   - Gray Code / 89 - Medium
-   - Trapping Rain Water II / 407 - Hard
-   - TODO 11/13 - 89, 407
- - 11/2
-   - Reconstruct Original Digits from English / 423 - Medium
-   - TODO 11/9 - 423
- - 11/1
-   - Spiral Matrix II / 59 - Medium
- - 10/31
-   - Minimum Number of Arrows to Burst Balloon / 452 - Medium
-   - TODO 11/7 - 452
- - 10/30
-   - Arranging Coins / 441 - Easy
-   - Positions of Large Groups / 830 - Easy
-   - Beautiful Array / 932 - Medium
-   - TODO 11/6 - 932
- - 10/29
-   - Gray Code / 89 - Medium
-   - TODO 11/5 - 89
+- 12/5
+  - The Skyline Problem / 218 - Hard
+- 12/4
+  - Keys and Rooms / 841 - Medium
+- 12/3
+  - Merge Two Sorted Lists / 21 - Easy
+- 12/1
+  - Champagne Tower / 799 - Medium
+- 11/30
+  - Minimum Gene Mutation / 433 - Medium
+  - Remove Duplicates from Sorted List / 83 - Easy
+  - Reverse Words in a String III / 557 - Easy
+  - Shuffle An Array / 384 - Medium
+  - Big Countries / 595 - Easy
+  - Reverse String / 344 - Easy
+  - Longest Common Prefix / 14 - Easy
+- 11/29
+  - Count The Repetitions / 466 - Hard
+  - Trapping Rain Water II / 407 - Hard
+  - Trim a Binary Search Tree / 669 - Easy
+  - K-th Smallest in Lexicographical Order / 440 - Hard
+  - Reverse Pairs / 493 - Hard
+- 11/28
+  - Reverse Integer / 7 - Easy
+  - String to Integer (atoi) / 8 - Medium
+- 11/27
+  - Serialize and Deserialize BST / 449 - Medium
+  - Implement Trie (Prefix Tree) / 208 - Medium
+  - Longest Substring Without Repeating Characters / 3 - Medium
+  - Median of Two Sorted Arrays / 4 - Hard
+  - Longest Palindromic Substring / 5 - Medium
+  - Matchsticks to Square / 473 - Medium
+- 11/26
+  - Super Palindrome / 906 - Hard
+  - Knight Dialer / 935 - Medium
+  - Flip String to Monotone Increasing / 926 - Medium
+  - Sort List / 148 - Medium
+- 11/22
+  - Trapping Rain Water II / 407 - Hard
+  - Reverse Pairs / 493 - Hard
+- 11/21
+  - Patching Array / 330 - Hard
+  - Count The Repetitions / 466 - Hard
+- 11/20
+  - Serialize and Deserialize BST / 449 - Medium
+  - Matchsticks to Square / 473 - Medium
+  - Construct the Rectangle / 492 - Easy
+  - Most Profit Assigning Work / 826 - Medium
+  - Implement Trie (Prefix Tree) / 208 - Medium
+- 11/19
+  - Non-negative Integers without Consecutive Ones / 600 - Hard
+  - Set Matrix Zeroes / 73 - Medium
+  - Count Complete Tree Nodes / 222 - Medium
+  - Number of Boomerangs / 447 - Easy
+  - Find Peak Element / 162 - Medium
+  - Flip String to Monotone Increasing / 926 - Medium
+- 11/17
+  - Super Palindrome / 906 - Hard
+  - Knight Dialer / 935 - Medium
+- 11/16
+  - Binary Tree Level Order Traversal / 102 - Medium
+  - Implement Magic Dictionary / 676 - Medium
+  - Rotate String / 796 - Easy
+  - Min Stack / 155 - Easy
+  - Num Ways Staircase / Dynamic Programming
+- 11/15
+  - Trapping Rain Water II / 407 - Hard
+  - Remove Linked List Elements / 203 - Easy
+  - Valid Palindrome II / 680 - Easy
+  - Swap Nodes in Pairs / 24 - Medium
+  - Knight Dialer / 935 - Medium
+  - Reverse Pairs / 493 - Hard
+- 11/14
+  - Minimum Number of Arrows to Burst Balloon / 452 - Medium
+  - Patching Array / 330 - Hard
+- 11/13
+  - Gray Code / 89 - Medium
+  - Trapping Rain Water II / 407 - Hard
+- 11/12
+  - Serialize and Deserialize BST / 449 - Medium
+- 11/9
+  - Reconstruct Original Digits from English / 423 - Medium
+  - Implement strStr() / 28 - Easy
+- 11/7
+  - Minimum Number of Arrows to Burst Balloon / 452 - Medium
+  - Almost Increasing Sequence / CodeSignal
+- 11/6
+  - Beautiful Array / 932 - Medium
+  - Pascal's Triangle II - Easy
+- 11/5
+  - Gray Code / 89 - Medium
+  - Trapping Rain Water II / 407 - Hard
+- 11/2
+  - Reconstruct Original Digits from English / 423 - Medium
+- 11/1
+  - Spiral Matrix II / 59 - Medium
+- 10/31
+  - Minimum Number of Arrows to Burst Balloon / 452 - Medium
+- 10/30
+  - Arranging Coins / 441 - Easy
+  - Positions of Large Groups / 830 - Easy
+  - Beautiful Array / 932 - Medium
+- 10/29
+  - Gray Code / 89 - Medium
