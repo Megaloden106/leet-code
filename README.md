@@ -4,11 +4,15 @@
 1. Time Limit of 30 min
 
 ## TODO
-- 12/5 - 5M, 473M, 926M, 148M, 218H
+- 12/5 - 473M, 926M, 148M, 218H
 - 12/6 - 466H, 407H, 440H
 
 ## List (Date - Problem / # - Difficulty)
 - 12/5
+  - Longest Palindromic Substring / 5 - Medium
+  - Sort List / 148 - Medium
+  - Flip String to Monotone Increasing / 926 - Medium
+  - Matchsticks to Square / 473 - Medium
   - The Skyline Problem / 218 - Hard
 - 12/4
   - Keys and Rooms / 841 - Medium
