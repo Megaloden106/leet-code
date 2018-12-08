@@ -4,12 +4,28 @@
 1. Time Limit of 30 min
 
 ## TODO
-- 12/5 - 473M, 926M, 148M, 218H
-- 12/6 - 466H, 407H, 440H
+- 12/5
+  - Matchsticks to Square / 473 - Medium
+  - Flip String to Monotone Increasing / 926 - Medium
+- 12/6
+  - Count The Repetitions / 466 - Hard
+  - Trapping Rain Water II / 407 - Hard
+- 12/8
+  - The Skyline Problem / 218 - Hard
+- 12/13
+  - Combination Sum / 39 - Medium
+- 12/14
+  - Find Eventual Safe States / 802 - Medium
+  - K-th Smallest in Lexicographical Order / 440 - Hard
 
 ## List (Date - Problem / # - Difficulty)
+- 12/7
+  - Gas Station / 134 - Medium
+  - Find Eventual Safe States / 802 - Medium
+  - K-th Smallest in Lexicographical Order / 440 - Hard
 - 12/6
   - Range Sum Query - Mutable / 307 - Medium
+  - Combination Sum / 39 - Medium
 - 12/5
   - Longest Palindromic Substring / 5 - Medium
   - Sort List / 148 - Medium
