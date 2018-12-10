@@ -19,6 +19,8 @@
   - K-th Smallest in Lexicographical Order / 440 - Hard
 
 ## List (Date - Problem / # - Difficulty)
+- 12/10
+  - Card Flipping Game / 822 - Medium
 - 12/7
   - Gas Station / 134 - Medium
   - Find Eventual Safe States / 802 - Medium

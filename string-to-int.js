@@ -36,8 +36,8 @@ const myAtoi = (str) => {
 };
 
 console.log(myAtoi('   -42'))
-// console.log(myAtoi('42'))
-// console.log(myAtoi('4193 with words'))
-// console.log(myAtoi('-'))
-// console.log(myAtoi('+'))
-// console.log(myAtoi('+-2'))
+console.log(myAtoi('42'))
+console.log(myAtoi('4193 with words'))
+console.log(myAtoi('-'))
+console.log(myAtoi('+'))
+console.log(myAtoi('+-2'))
