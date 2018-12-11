@@ -21,6 +21,7 @@
 ## List (Date - Problem / # - Difficulty)
 - 12/10
   - Card Flipping Game / 822 - Medium
+  - Merge Intervals / 56 - Medium
 - 12/7
   - Gas Station / 134 - Medium
   - Find Eventual Safe States / 802 - Medium
