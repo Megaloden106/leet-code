@@ -4,21 +4,30 @@
 1. Time Limit of 30 min
 
 ## TODO
-- 12/5
+- 12/12
   - Matchsticks to Square / 473 - Medium
   - Flip String to Monotone Increasing / 926 - Medium
-- 12/6
   - Count The Repetitions / 466 - Hard
   - Trapping Rain Water II / 407 - Hard
-- 12/8
   - The Skyline Problem / 218 - Hard
 - 12/13
   - Combination Sum / 39 - Medium
 - 12/14
   - Find Eventual Safe States / 802 - Medium
   - K-th Smallest in Lexicographical Order / 440 - Hard
+- 12/18
+  - Minimum Window Substring / 76 - Hard
 
 ## List (Date - Problem / # - Difficulty)
+- 12/12
+  - Best Time to Buy and Sell Stock II / 122 - Easy
+  - Best Time to Buy and Sell Stock with Cooldown / 309 - Medium
+- 12/11
+  - Binary Trees With Factors / 823 - Medium
+  - Symmetric Tree / 101 - Easy
+  - Implement Rand10() Using Rand7() / 470 - Medium
+  - Binary Tree Zigzag Level Order Traversal / 103 - Medium
+  - Minimum Window Substring / 76 - Hard
 - 12/10
   - Card Flipping Game / 822 - Medium
   - Merge Intervals / 56 - Medium
