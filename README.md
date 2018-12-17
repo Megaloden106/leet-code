@@ -4,21 +4,20 @@
 1. Time Limit of 30 min
 
 ## TODO
-- 12/12
+- 12/18
   - Matchsticks to Square / 473 - Medium
-  - Flip String to Monotone Increasing / 926 - Medium
   - Count The Repetitions / 466 - Hard
   - Trapping Rain Water II / 407 - Hard
   - The Skyline Problem / 218 - Hard
-- 12/13
+  - Reverse Pairs / 493 - Hard
   - Combination Sum / 39 - Medium
-- 12/14
   - Find Eventual Safe States / 802 - Medium
   - K-th Smallest in Lexicographical Order / 440 - Hard
-- 12/18
   - Minimum Window Substring / 76 - Hard
 
 ## List (Date - Problem / # - Difficulty)
+- 12/17
+  - Flip String to Monotone Increasing / 926 - Medium
 - 12/12
   - Best Time to Buy and Sell Stock II / 122 - Easy
   - Best Time to Buy and Sell Stock with Cooldown / 309 - Medium

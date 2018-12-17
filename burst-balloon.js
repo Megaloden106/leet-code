@@ -29,10 +29,10 @@ const findMinArrowShots = (points) => {
   return arrows;
 };
 
-let points = [[10,16],[2,8],[1,8],[1,6],[7,12]];
-let solution = findMinArrowShots(points);
-console.log(solution);
+// let points = [[10,16],[2,8],[1,8],[1,6],[7,12]];
+// let solution = findMinArrowShots(points);
+// console.log(solution);
 
-points = [[9,12],[1,10],[4,11],[8,12],[3,9],[6,9],[6,7]];
+points = [[9,12],[1,10],[4,11],[8,12],[3,9],[6,9],[6,7],[5,6]];
 solution = findMinArrowShots(points);
 console.log(solution);

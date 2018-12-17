@@ -10,19 +10,24 @@
  * @return {number}
  */
 const minFlipsMonoIncr = (S) => {
-  const numOfOnes = [0];
-  for (let i = 0; i < S.length; i += 1) {
-    numOfOnes[i + 1] = numOfOnes[i] + (S[i] === '1' ? 1 : 0);
+  const numOfOnes = [];
+  for (let i = 0; i < S.length; i++) {
+    let prev = numOfOnes[i - 1] ? numOfOnes[i - 1] : 0;
+    numOfOnes[i] = S[i] === '1' ? prev + 1 : prev;
   }
-  let ans = Math.min();
-  for (let i = 0; i <= S.length; i += 1) {
-    let remainingOnes = numOfOnes[S.length] - numOfOnes[i];
-    let currentOnes = numOfOnes[i];
-    let remainingLength = S.length - i;
-    ans = Math.min(ans, currentOnes + remainingLength - remainingOnes)
-    console.log(numOfOnes[i], ans)
+  const shift = [];
+  for (let i = 0; i < numOfOnes.length; i++) {
+    shift[i] = numOfOnes[i] - numOfOnes[numOfOnes.length - 1] + numOfOnes[i];
   }
-  return ans;
+  console.log(shift)
+  let count = 0;
+  for (let i = 0; i < S.length; i++) {
+    if (
+      shift[i] < 0 && S[i] === '1'
+      || shift[i] > 0 && S[i] === '0'
+    ) count++;
+  }
+  return count;
 };
 
 // console.log(minFlipsMonoIncr("00110"));
