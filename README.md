@@ -4,24 +4,30 @@
 1. Time Limit of 30 min
 
 ## TODO
-- 12/19
+- Now
   - Matchsticks to Square / 473 - Medium
   - Count The Repetitions / 466 - Hard
   - Trapping Rain Water II / 407 - Hard
-  - The Skyline Problem / 218 - Hard
   - Reverse Pairs / 493 - Hard
   - Combination Sum / 39 - Medium
   - Find Eventual Safe States / 802 - Medium
   - K-th Smallest in Lexicographical Order / 440 - Hard
   - Minimum Window Substring / 76 - Hard
   - Unique Paths
-- 12/24
   - Flip String to Monotone Increasing / 926 - Medium
+- 1/9
+  - Count Numbers with Unique Digits / 357 - Medium
+- 1/10
+  - The Skyline Problem / 218 - Hard
 
 ## List (Date - Problem / # - Difficulty)
+- 1/3
+  - The Skyline Problem / 218 - Hard
 - 1/2
   - Queue Reconstruction by Height / 406 - Medium
   - Self-Dividing Number / 728 - Easy
+  - Count Numbers with Unique Digits / 357 - Medium
+  - Dota2 Senate / 649 - Medium
 - 12/18
   - Smallest Range II / 910 - Medium
 - 12/17

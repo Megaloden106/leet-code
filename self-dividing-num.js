@@ -22,4 +22,4 @@ const selfDividingNumbers = (left, right) => {
   return result;
 };
 
-console.log(selfDividingNumbers(1,22));
+console.log(selfDividingNumbers(1,29));
