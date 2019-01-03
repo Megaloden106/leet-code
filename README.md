@@ -21,6 +21,7 @@
 ## List (Date - Problem / # - Difficulty)
 - 1/2
   - Queue Reconstruction by Height / 406 - Medium
+  - Self-Dividing Number / 728 - Easy
 - 12/18
   - Smallest Range II / 910 - Medium
 - 12/17
