@@ -16,30 +16,24 @@
  */
 const eventualSafeNodes = (graph) => {
   const result = [];
+  const storage = {};
+  const isCycle = (node, visited = []) => {
+    if (storage[node] !== undefined) return storage[node];
+    if (visited[node]) return true;
+    let res = false;
+    visited[node] = true;
+    graph[node].forEach(next => {
+      if (isCycle(next, visited)) res = true
+    });
+    visited[node] = false;
+    storage[node] = res;
+    return res;
+  };
   for (let i = 0; i < graph.length; i++) {
-    const visited = {};
-    const queue = []
-    let isSafe = true;
-    let depth = 0;
-    graph[i].forEach(e => queue.push([e, depth]));
-    depth++
-    let count = queue.length;
-    while (queue.length > 0 && isSafe) {
-      let target = queue.shift();
-      count--;
-      if (count === 0) {
-        depth++;
-        count = queue.length;
-      }
-      if (!visited[target[0]]) graph[target[0]].forEach(e => queue.push([e, depth]));
-      else if (target[1] !== depth) isSafe = false
-      visited[target] = true;
-    }
-    if (isSafe) result.push(i)
+    if (!isCycle(i)) result.push(i);
   }
   return result;
 };
 
-// let graph = [[1,2],[2,3],[5],[0],[5],[],[]]
-
+let graph = [[1,2],[2,3],[5],[0],[5],[],[]]
 console.log(eventualSafeNodes(graph)) // [2,4,5,6]
