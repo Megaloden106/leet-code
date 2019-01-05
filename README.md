@@ -16,11 +16,15 @@
 - 1/10
   - The Skyline Problem / 218 - Hard
   - Matchsticks to Square / 473 - Medium
+- 1/11
+  - Basic Calculator / 224 - Hard
 
 ## List (Date - Problem / # - Difficulty)
 - 1/4
   - Univalued Binary Tree / 965 - Easy
   - Unique Paths II / 63 - Medium
+  - Basic Calculator / 224 - Hard
+  - Valid Square / 593 - Medium
 - 1/3
   - The Skyline Problem / 218 - Hard
   - Combination Sum / 39 - Medium
