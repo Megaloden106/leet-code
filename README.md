@@ -20,6 +20,9 @@
   - Basic Calculator / 224 - Hard
 
 ## List (Date - Problem / # - Difficulty)
+- 1/7
+  - Move Zeroes / 283 - Easy
+  - Remove Duplicate Letters / 316 - Hard
 - 1/4
   - Univalued Binary Tree / 965 - Easy
   - Unique Paths II / 63 - Medium
