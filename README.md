@@ -18,11 +18,19 @@
   - Matchsticks to Square / 473 - Medium
 - 1/11
   - Basic Calculator / 224 - Hard
+- 1/14
+  - Remove Duplicate Letters / 316 - Hard
+  - Product of Array Except Self / 238 - Medium
 
 ## List (Date - Problem / # - Difficulty)
+- 1/8
+  - Rotate List / 61 - Medium
+  - Set Intersection Size At Least Two / 757 - Hard
 - 1/7
   - Move Zeroes / 283 - Easy
   - Remove Duplicate Letters / 316 - Hard
+  - Product of Array Except Self / 238 - Medium
+  - Binary Tree Postorder Traversal / 145 - Hard
 - 1/4
   - Univalued Binary Tree / 965 - Easy
   - Unique Paths II / 63 - Medium
