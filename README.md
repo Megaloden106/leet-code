@@ -26,6 +26,7 @@
 ## List (Date - Problem / # - Difficulty)
 - 1/9
   - Lowest Common Ancestor of a Binary Tree / 239 - Medium
+  - Game of Life / 289 - Medium
 - 1/8
   - Rotate List / 61 - Medium
   - Set Intersection Size At Least Two / 757 - Hard
