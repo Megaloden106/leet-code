@@ -11,7 +11,6 @@
   - K-th Smallest in Lexicographical Order / 440 - Hard
   - Minimum Window Substring / 76 - Hard
   - Flip String to Monotone Increasing / 926 - Medium
-- 1/9
   - Count Numbers with Unique Digits / 357 - Medium
 - 1/10
   - The Skyline Problem / 218 - Hard
@@ -21,8 +20,12 @@
 - 1/14
   - Remove Duplicate Letters / 316 - Hard
   - Product of Array Except Self / 238 - Medium
+- 1/15
+  - Set Intersection Size At Least Two / 757 - Hard
 
 ## List (Date - Problem / # - Difficulty)
+- 1/9
+  - Lowest Common Ancestor of a Binary Tree / 239 - Medium
 - 1/8
   - Rotate List / 61 - Medium
   - Set Intersection Size At Least Two / 757 - Hard
