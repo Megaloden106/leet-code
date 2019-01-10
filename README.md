@@ -21,12 +21,16 @@
   - Product of Array Except Self / 238 - Medium
 - 1/15
   - Set Intersection Size At Least Two / 757 - Hard
+- 1/16
+  - Fraction to Recurring Decimal / 166 - Medium
 
 ## List (Date - Problem / # - Difficulty)
 - 1/9
   - Lowest Common Ancestor of a Binary Tree / 239 - Medium
   - Game of Life / 289 - Medium
   - Count Numbers with Unique Digits / 357 - Medium
+  - Fraction to Recurring Decimal / 166 - Medium
+  - Loud and Rich / 851 - Medium
 - 1/8
   - Rotate List / 61 - Medium
   - Set Intersection Size At Least Two / 757 - Hard
