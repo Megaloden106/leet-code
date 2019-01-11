@@ -30,8 +30,7 @@ const loudAndRich = (richer, quiet) => {
         if (quiet[node] < min[1]) min = [node, quiet[node]];
         visited[node] = true;
       }
-      answer[i] = min[0];
-      answer[min[0]] = min[0];
+      answer[i] = answer[min[0]] = min[0];
     }
   }
   return answer;

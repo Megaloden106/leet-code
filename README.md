@@ -11,7 +11,6 @@
   - K-th Smallest in Lexicographical Order / 440 - Hard
   - Minimum Window Substring / 76 - Hard
   - Flip String to Monotone Increasing / 926 - Medium
-- 1/10
   - The Skyline Problem / 218 - Hard
   - Matchsticks to Square / 473 - Medium
 - 1/11
@@ -25,6 +24,8 @@
   - Fraction to Recurring Decimal / 166 - Medium
 
 ## List (Date - Problem / # - Difficulty)
+- 1/10
+  - Open the Lock / 752 - Medium
 - 1/9
   - Lowest Common Ancestor of a Binary Tree / 239 - Medium
   - Game of Life / 289 - Medium
