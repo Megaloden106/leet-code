@@ -23,7 +23,30 @@
  *
  *
  */
-var balancedParens = function(input) {
+const balancedParens = (input) => {
+  if (input.length % 2 !== 0) return false;
+  const stack = [];
+  for (let i = 0; i < input.length; i++) {
+    let paren = input[i];
+    switch (paren) {
+      case ']':
+        if (stack.pop() !== '[') return false;
+        break;
+      case '}':
+        if (stack.pop() !== '{') return false;
+        break;
+      case ')':
+        if (stack.pop() !== '(') return false;
+        break;
+      default:
+        stack.push(paren);
+        break;
+    }
+  }
+  return stack.length === 0;
 };
 
+console.log(balancedParens('(())'))
+console.log(balancedParens('[](){}'))
+console.log(balancedParens('[(]{)}'))
 

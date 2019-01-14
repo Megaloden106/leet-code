@@ -29,6 +29,9 @@
   - All Anagrams
   - Async Map
   - Balance Parens
+  - Binary Heap
+  - Bubble Sort
+  - Quick Sort
 - 1/11
   - Priority Queue Data Structure
   - Evaluate Reverse Polish Notation / 150 - Medium
