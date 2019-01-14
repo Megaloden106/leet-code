@@ -21,8 +21,20 @@
   - Set Intersection Size At Least Two / 757 - Hard
 - 1/16
   - Fraction to Recurring Decimal / 166 - Medium
+- 1/17
+  - Majority Element II / 229 - Medium
 
 ## List (Date - Problem / # - Difficulty)
+- 1/13
+  - All Anagrams
+  - Async Map
+  - Balance Parens
+- 1/11
+  - Priority Queue Data Structure
+  - Evaluate Reverse Polish Notation / 150 - Medium
+  - House Robber / 198 - Easy
+  - House Robber II / 213 - Medium
+  - House Robber III / 337 - Medium
 - 1/10
   - Open the Lock / 752 - Medium
   - Majority Element II / 229 - Medium
