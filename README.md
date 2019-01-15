@@ -14,9 +14,6 @@
   - The Skyline Problem / 218 - Hard
   - Matchsticks to Square / 473 - Medium
   - Basic Calculator / 224 - Hard
-- 1/14
-  - Remove Duplicate Letters / 316 - Hard
-  - Product of Array Except Self / 238 - Medium
 - 1/15
   - Set Intersection Size At Least Two / 757 - Hard
 - 1/16
@@ -25,6 +22,15 @@
   - Majority Element II / 229 - Medium
 
 ## List (Date - Problem / # - Difficulty)
+- 1/14
+  - Character Frequency
+  - Product of Array Except Self / 238 - Medium
+  - Remove Duplicate Letters / 316 - Hard
+  - Remove Nth Node From End Of List / 19 - Medium
+  - Roman to Integer / 13 - Easy
+  - Integer to Roman / 12 - Medium
+  - Min Cost Climbing Stairs / 746 - Easy
+  - Maximum Subarray / 53 - Easy
 - 1/13
   - All Anagrams
   - Async Map

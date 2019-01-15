@@ -6,6 +6,16 @@
  * @return {number[]}
  */
 const productExceptSelf = (nums) => {
+  const result = Array(nums.length).fill(1);
+  let left = 1;
+  let right = 1;
+  for (let i = 0, j = nums.length - 1; i < nums.length; i++, j--) {
+    result[i] *= left;
+    result[j] *= right;
+    left *= nums[i];
+    right *= nums[j];
+  }
+  return result;
 };
 
 // O(1) space (not including result array), O(n) time, and no division
