@@ -14,14 +14,15 @@
   - The Skyline Problem / 218 - Hard
   - Matchsticks to Square / 473 - Medium
   - Basic Calculator / 224 - Hard
-- 1/15
   - Set Intersection Size At Least Two / 757 - Hard
-- 1/16
   - Fraction to Recurring Decimal / 166 - Medium
-- 1/17
   - Majority Element II / 229 - Medium
+- 1/22
+  - Strong Password Checker / 420 - Hard
 
 ## List (Date - Problem / # - Difficulty)
+- 1/15
+  - Reverse String II / 541 - Easy
 - 1/14
   - Character Frequency
   - Product of Array Except Self / 238 - Medium
@@ -31,6 +32,7 @@
   - Integer to Roman / 12 - Medium
   - Min Cost Climbing Stairs / 746 - Easy
   - Maximum Subarray / 53 - Easy
+  - Strong Password Checker / 420 - Hard
 - 1/13
   - All Anagrams
   - Async Map
